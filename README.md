@@ -6,8 +6,7 @@ This module takes in messages with length of 'msg_dim' from a number of agents (
 
 ## What is so special about it?
 1. In the case of a single agent (self-interaction / self-communication), the encoded input and the encoded output are identical - as expected, since there is no interaction with other agents. Furthermore, the encoder-decoder networks that the user inputs can be trained this way to be the inverse of each other.
-2. The output is independent of the number of agents in the input and the order of the agents' messages doesn't matter. This module is order-invariant.
-This takes [DeepSets](https://github.com/manzilzaheer/DeepSets) to the next level.
+2. The output is independent of the number of agents in the input and the order of the agents' messages doesn't matter. This module is order-invariant which takes [DeepSets](https://github.com/manzilzaheer/DeepSets) to the next level.
 
 ## How does it do this?
 Borrowing from the attention mechanism: 
